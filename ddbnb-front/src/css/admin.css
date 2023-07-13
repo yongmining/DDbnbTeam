@@ -1,0 +1,219 @@
+.menuContainer {
+    width: 20%;
+    height: 20vh;
+    min-width: 200px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0px 10px;
+}
+
+.menutext {
+    width: 100%;
+    height: 20%;
+
+    border: 1px solid black;
+
+    font-size: 1.5rem;
+    font-weight: bold;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 75%;
+}
+
+.container>* {
+    width: 100%;
+}
+
+.menuheader {
+    height: 60px;
+    /* border: 1px solid black; */
+
+    color: white;
+    background-color: #8E8E8E;
+
+    display: flex;
+    align-items: center;
+}
+
+.searchheader {
+    height: 60px;
+
+    font-weight: bold;
+
+    color: white;
+    background-color: #8E8E8E;
+
+    margin-top: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menuheader>h2,
+.searchheader>div:first-child {
+    margin-left: 10px;
+}
+
+.searchheader>div:first-child {
+    width: 10%;
+    border-right: 1px solid white;
+}
+
+.searchheader>div {
+    width: 75%;
+}
+
+.searchbutton {
+    width: 10%;
+
+    color: black;
+    background-color: white;
+
+    font-size: 18px;
+
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+.buttonlist {
+    width: 100%;
+
+    display: flex;
+    justify-content: flex-end;
+
+    margin: 15px 0px;
+}
+
+.changebutton {
+    width: 105px;
+    height: 35px;
+
+    background-color: white;
+    color: #8D8D8D;
+
+    font-size: 20px;
+    font-weight: bold;
+
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+
+
+.adminTable {
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+.adminTable>*>tr>* {
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+
+
+
+.modalContainer {
+    width: 340px;
+    height: 530px;
+
+    padding: 10px;
+}
+
+.modalHeader {
+    width: 100%;
+    height: 55px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.modalBody {
+    width: 100%;
+    height: 475px;
+}
+
+.modalBody>div:first-child {
+    height: 60%;
+}
+
+.modalBody>div:last-child {
+    height: 20%;
+}
+
+.reportContent {
+    width: 80%;
+    height: 55%;
+
+    padding: 0px 17px 10px;
+}
+
+.reportContent>div {
+    margin-bottom: 10px;
+}
+
+.number {
+    width: 100px;
+}
+
+.reportbutton>button {
+    width: 121px;
+    height: 55px;
+
+    font-size: 20px;
+    font-weight: bold;
+
+    border-radius: 5px;
+}
+
+.checkbutton {
+    border: none;
+}
+
+.cancelbutton {
+    border: 3px solid #FAB7A2;
+    background-color: white;
+}
+
+/* .memberbutton1 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 121px;
+    height: 55px;
+    border-radius: 5px;
+    background-color: white;
+    border: 3px solid #FAB7A2;
+}
+
+.memberbutton2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 60px;
+    width: 121px;
+    height: 55px;
+    border: none;
+    border-radius: 5px;
+} */
+
+
+.font-color-main {
+    color: #FAB7A2;
+}
